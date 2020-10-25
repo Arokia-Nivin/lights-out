@@ -8,6 +8,6 @@ Pressing any of the lights will toggle it and as well as the four adjacent light
 
 The goal of this puzzle is to switch all the grid of lights off.
 
-Built using react framework. 
+Built using React framework.
 
 Check out this link ->  https://arokianivin09.github.io/lightsout/ .
