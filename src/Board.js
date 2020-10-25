@@ -30,37 +30,30 @@ class Board extends Component {
     return board;
   }
 
+  toggle(i,j,board){
+    let {ncols, nrows} = this.props;
+    if (i >= 0 && i < nrows && j >= 0 &&  j< ncols  ) {
+      board[i][j] = !board[i][j];
+    }
+  }
 
   flipCellsAround(coord) {
-    let {ncols, nrows} = this.props;
-    let board = this.state.board;
-    let [y, x] = coord.split("-").map(Number);
-
-
-    function flipCell(y, x) {
-      if (x >= 0 && x < ncols && y >= 0 && y < nrows) {
-        board[y][x] = !board[y][x];
-      }
-    }
-
-    flipCell(y,x);
-    flipCell(y-1,x); 
-    flipCell(y+1,x); 
-    flipCell(y,x-1);
-    flipCell(y,x+1); 
-
-    this.setState(
-      { board:board,
-        hasWon:board.every(row=> row.every(cell => !cell))
-      })
+    let [i, j] = coord.split("-").map(Number);
+    let board= this.state.board; 
+    this.toggle(i,j,board);
+    this.toggle(i-1,j,board); 
+    this.toggle(i+1,j,board); 
+    this.toggle(i,j-1,board);
+    this.toggle(i,j+1,board); 
+    this.setState({ board:board, hasWon:board.every(row=> row.every(cell => !cell))})
   }
+
   handleClick(){
     this.setState({
       board: this.createBoard(),
       hasWon:false,
     });
   }
-
 
   render() {
     if (this.state.hasWon){

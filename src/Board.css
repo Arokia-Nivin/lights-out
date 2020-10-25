@@ -4,14 +4,14 @@
 }
 .Board {
 	margin: 1% auto;
-	box-shadow: -10px 0 100px#00bcd4;
+	box-shadow: -10px 0 100px #fa75c0;
 	border-radius: 5px;
 }
 
 .Board-reset {
 	margin-top: 10px;
 	width: 5em;
-	background-color: #00bcd4;
+	background-color:#fa75c0;
 	color: black;
 	outline: none;
 	border-radius: 5px;
@@ -30,14 +30,14 @@
 }
 .Board-name {
 	font-family: 'Dancing Script', cursive;
-	color: #00bcd4;
+	color: #fa75c0;
 	font-size: 60px;
-	text-shadow: 0 0 3vw #00bcd4;
+	text-shadow: 0 0 3vw #fa75c0;
 }
 
 .Board-winner {
 	font-family: 'Dancing Script', cursive;
-	color: #00bcd4;
+	color: #fa75c0;
 	font-size: 60px;
-	text-shadow: 0 0 3vw #00bcd4;
+	text-shadow: 0 0 3vw #fa75c0;
 }
