@@ -10,4 +10,4 @@ The goal of this puzzle is to switch all the grid of lights off.
 
 Built using React framework.
 
-Check out this link ->  https://arokianivin09.github.io/lightsout/ .
+Check out this link ->  https://arokianivin09.github.io/lightsout/ 
