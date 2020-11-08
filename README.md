@@ -1,3 +1,5 @@
+<div align="center">
+  
 # lightsout
 
 This game consists of a 5 by 5 grid of lights.
@@ -10,4 +12,7 @@ The goal of this puzzle is to switch all the grid of lights off.
 
 Built using React framework.
 
-Check out this link ->  https://arokianivin09.github.io/lightsout/ 
+## View Live App at
+
+<a href="https://arokianivin09.github.io/lightsout/ ">:octocat: Lights Out App :octocat:</a>
+
