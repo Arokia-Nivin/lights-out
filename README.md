@@ -14,7 +14,7 @@ Built using React framework.
 
 ## View Live App at
 
-<a href="https://arokianivin09.github.io/lightsout/ ">:octocat: Lights Out App :octocat:</a>
+<a href="https://EzioAuditore-daFirenze.github.io/lights-out/ ">:octocat: Lights Out App :octocat:</a>
 
 ## Available Scripts
 
@@ -31,5 +31,3 @@ Creates a production build of the application which can be deployed to any stati
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
-
-
