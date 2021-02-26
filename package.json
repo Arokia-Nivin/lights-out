@@ -1,6 +1,6 @@
 {
   "homepage": "https://EzioAuditore-daFirenze.github.io/lights-out/",
-  "name": "react-lights-out",
+  "name": "lights-out",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
