@@ -14,7 +14,7 @@ Built using React framework.
 
 ## View Live App at
 
-<a href="https://EzioAuditore-daFirenze.github.io/lights-out/ ">:octocat: Lights Out App :octocat:</a>
+<a href="https://arokia-nivin.github.io/lights-out/">:octocat: Lights Out App :octocat:</a>
 
 ## Available Scripts
 
